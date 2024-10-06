@@ -1,9 +1,9 @@
 import { whoAmIDataType } from "../types/whoAmIData";
 
 export const whoAmIData: whoAmIDataType = {
-  fullName: "Leo Miranda",
-  profession: "Frontend developer",
+  fullName: "Zuhaa Shahid",
+  profession: "Web developer & UI/UX designer",
   whoAmI:
-    "Hello! I am a developer who really enjoys transforming ideas into functional software that exceeds expectations. I like to be constantly learning from other professionals, teams and communities to stay on top of the latest industry trends. Being a developer is not just a job for me; it is an activity that I absolutely appreciate all the time.",
-  quote: "I really like creating software solutions",
+  "Hi, I’m Zuhaa, a Web Developer and UI/UX Designer with a passion for blending technology and creativity. I love building intuitive, responsive websites and crafting seamless user experiences. My background in web development helps me bring ideas to life, while my appreciation for art influences my design work, ensuring each project feels both functional and visually engaging. Whether coding a dynamic interface or designing a sleek layout, I’m always exploring new ways to combine aesthetics and functionality. Let’s create something beautiful together!",
+  quote: "I really like creating artistic solutions to creative problems",
 };

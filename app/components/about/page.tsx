@@ -37,7 +37,7 @@ export default function About() {
         <CardBody className="flex-col items-center justify-center gap-2">
           <Avatar
             name="LM"
-            src="https://res.cloudinary.com/dbzv9xfjp/image/upload/v1700603685/portfolio/avatar-profile_lb9hd9.jpg"
+            src="https://avatars.githubusercontent.com/u/96713782?v=4"
             className="w-24 h-24 text-large brightness-90"
           />
           <h1 className="text-4xl font-bold">{fullName}</h1>

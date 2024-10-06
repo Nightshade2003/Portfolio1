@@ -1,8 +1,8 @@
 import { contactDataType } from "../types";
 
 export const contactData: contactDataType = {
-  email: "leomirandadev@gmail.com",
-  github: "https://github.com/leoMirandaa",
-  linkedIn: "https://www.linkedin.com/in/leopoldo-miranda/",
-  x: "https://twitter.com/leo_mirand4",
+  email: "zuhaashahid2003@gmail.com",
+  github: "https://github.com/Nightshade2003",
+  linkedIn: "https://www.linkedin.com/in/zuhaa-shahid/",
+  x: "",
 };

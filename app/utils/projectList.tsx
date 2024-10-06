@@ -1,5 +1,5 @@
 import {
-  AntdSVG,
+  JspSVG,
   CSSSVG,
   ExpressSVG,
   JavascriptSVG,
@@ -7,16 +7,12 @@ import {
   MongoDBSVG,
   MongooseSVG,
   PrimeReactSVG,
-  ReactHookFormSVG,
   ReactSVG,
-  SassSVG,
   ShadcnLandingSVG,
   ShadcnSVG,
   ShopApiSVG,
   Sk8terSVG,
   SwaggerSVG,
-  TailwindSVG,
-  TypescriptSVG,
 } from "../components/ui/icons";
 import { ProjectType } from "../types";
 import { NextSVG } from "../components/ui/icons/index";
@@ -24,8 +20,8 @@ import { NextSVG } from "../components/ui/icons/index";
 export const ProjectList: ProjectType[] = [
   {
     icon: <ShadcnLandingSVG />,
-    title: "Shadcn Landing page",
-    subtitle: "Landing page template",
+    title: "Cadmius",
+    subtitle: "Handwriting and Text Converison Website",
     technologies: [
       {
         name: "React",
@@ -37,64 +33,40 @@ export const ProjectList: ProjectType[] = [
         ),
       },
 
+      
       {
-        name: "TypeScript",
+        name: "MongoDB",
         icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Shadcn",
-        icon: (
-          <ShadcnSVG
+          <MongoDBSVG
             color="#000000"
             size={16}
           />
         ),
       },
+
       {
-        name: "Tailwind",
+        name: "CSS",
         icon: (
-          <TailwindSVG
-            color="#06B6D4"
+          <CSSSVG
+            color="#000000"
             size={16}
           />
         ),
       },
+      
     ],
     description:
-      "Landing page  with essential sections to promote a particular product, service, event, or offer. It is fully responsive, customizable, has dark mode, meta tags and user-friendly interface.",
-    imgUrl: "/videos/shadcn-landing-page.webp",
-    videoUrl: "/videos/shadcn-landing-page.mp4",
-    githubUrl: "https://github.com/leoMirandaa/shadcn-landing-page.git",
-    websiteUrl: "https://shadcn-landing-page.vercel.app/",
+      "This website lets you easily convert your handwriting into a personalized font and also transforms digital text into lifelike handwriting. Perfect for adding a personal touch to documents and designs!",
+    imgUrl: "/videos/cad.webp",
+    videoUrl: "",
+    githubUrl: "https://github.com/Nightshade2003",
+    websiteUrl: "https://github.com/Nightshade2003/Handwriting-and-Text-Conversion-Website.git",
   },
   {
-    icon: <MagentaKitchenSVG />,
-    title: "Magenta Kitchen",
-    subtitle: "Restaurant Menu",
+    icon: <ShopApiSVG />,
+    title: "Hospital Management System",
+    subtitle: "Inventory and Scheduling System",
     technologies: [
-      {
-        name: "React",
-        icon: (
-          <ReactSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Next js",
-        icon: (
-          <NextSVG
-            color="#000"
-            size={16}
-          />
-        ),
-      },
       {
         name: "CSS Modules",
         icon: (
@@ -105,9 +77,9 @@ export const ProjectList: ProjectType[] = [
         ),
       },
       {
-        name: "Antd",
+        name: "Jsp",
         icon: (
-          <AntdSVG
+          <JspSVG
             color="#1d93ff"
             size={16}
           />
@@ -115,145 +87,50 @@ export const ProjectList: ProjectType[] = [
       },
     ],
     description:
-      "Restaurant menu created with the purpose to have an elegant digital menu, with the capability to use it with QR code and show the elemental restaurant information and all the dishes available.",
-    imgUrl: "/videos/magenta.webp",
-    videoUrl: "/videos/magenta.mp4",
-    githubUrl: "https://github.com/leomirandaa/restaurant-menu.git",
-    websiteUrl: "https://magentakitchen.vercel.app/",
+      "HIMS is a streamlined hospital inventory and scheduling management system designed to optimize resource tracking and staff coordination for healthcare facilities",
+    imgUrl: "/videos/hims.webp",
+    videoUrl: "",
+    githubUrl: "https://github.com/Nightshade2003",
+    websiteUrl: "https://github.com/Nightshade2003/Hospital-Inventory-and-Scheduling-Management-System/blob/main/README.md",
   },
   {
-    icon: <Sk8terSVG />,
-    title: "Sk8ter",
-    subtitle: "E-commerce",
+    icon: <MagentaKitchenSVG />,
+    title: "Respika",
+    subtitle: "Cooking Website",
     technologies: [
-      {
-        name: "JavaScript",
-        icon: (
-          <JavascriptSVG
-            color="#F7DF1E"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "React",
-        icon: (
-          <ReactSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Sass",
-        icon: (
-          <SassSVG
-            color="#CC6699"
-            size={16}
-          />
-        ),
-      },
-
-      {
-        name: "Prime React",
-        icon: (
-          <PrimeReactSVG
-            color="#06B6D4"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "React Hook Form",
-        icon: (
-          <ReactHookFormSVG
-            color="#EC5990"
-            size={16}
-          />
-        ),
-      },
     ],
     description:
-      "Dynamic e-commerce web system selling skateboards in a friendly and intuitive interface. The system has authentication, a dashboard and also dark mode.",
-    imgUrl: "/videos/sk8ter.webp",
-    videoUrl: "/videos/sk8ter.mp4",
-    githubUrl: "https://github.com/leoMirandaa/sk8ter-shop",
-    websiteUrl: "",
+      "Respika is your go-to recipe generator, offering a sleek, modern design that inspires culinary creativity. Input your available ingredients and preferences to generate personalized meal ideas, complete with clear instructions and vibrant visuals. Enjoy an effortless cooking experience on any device!",
+    imgUrl: "/videos/food.webp",
+    videoUrl: "",
+    githubUrl: "https://github.com/Nightshade2003",
+    websiteUrl: "https://www.figma.com/design/MJF5FwfDscs0OeXaxrEROo/Recipe-Generator-Website?m=auto&t=UyUFQi3gUmfRMZrV-6",
   },
   {
     icon: <ShopApiSVG />,
-    title: "Shop API",
-    subtitle: "E-commerse back-end",
+    title: "Finance App",
+    subtitle: "Finance App",
     technologies: [
-      {
-        name: "JavaScript",
-        icon: (
-          <JavascriptSVG
-            color="#F7DF1E"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Express",
-        icon: (
-          <ExpressSVG
-            color="#000000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "MongoDB",
-        icon: (
-          <MongoDBSVG
-            color="#47A248"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Mongoose",
-        icon: (
-          <MongooseSVG
-            color="#880000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Swagger",
-        icon: (
-          <SwaggerSVG
-            color="#85EA2D"
-            size={16}
-          />
-        ),
-      },
     ],
     description:
-      "Backed e-commerce project that allows to manage users, categories, coupons and products with the endpoints ready to play with. Includes swagger docs.",
-    imgUrl: "/videos/shop-api.webp",
+      "Introducing Finance App, your personal finance companion designed for simplicity and efficiency. Track your expenses, set budgets, and monitor your investments with a sleek, intuitive interface. Our app provides insightful analytics, helping you make informed financial decisions while keeping your data secure. Manage your money effortlessly, anytime, anywhere!",
+    imgUrl: "/videos/finance.webp",
     videoUrl: "",
-    githubUrl: "https://github.com/leomirandaa/shop-API.git",
-    websiteUrl: "NONE",
+    githubUrl: "https://github.com/Nightshade2003",
+    websiteUrl: "https://www.figma.com/design/IECgG3epziE0xUxTvHYfmI/Finance-App-rework?m=auto&t=LwhwrM3p422xkBag-6",
+  },
+
+  {
+    icon: <ShopApiSVG />,
+    title: "Finance App",
+    subtitle: "Finance App",
+    technologies: [
+    ],
+    description:
+      "Introducing Finance App, your personal finance companion designed for simplicity and efficiency. Track your expenses, set budgets, and monitor your investments with a sleek, intuitive interface. Our app provides insightful analytics, helping you make informed financial decisions while keeping your data secure. Manage your money effortlessly, anytime, anywhere!",
+    imgUrl: "/videos/finance.webp",
+    videoUrl: "",
+    githubUrl: "https://github.com/Nightshade2003",
+    websiteUrl: "https://www.figma.com/design/IECgG3epziE0xUxTvHYfmI/Finance-App-rework?m=auto&t=LwhwrM3p422xkBag-6",
   },
 ];

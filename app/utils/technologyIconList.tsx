@@ -1,21 +1,47 @@
 import { iconType } from "../types";
 import {
   JavascriptSVG,
-  TypescriptSVG,
-  VueSVG,
+  HtmlSVG,
+  CSSSVG,
+  JspSVG,
+  CppSVG,
+  JavaSVG,
+  PythonSVG,
   ReactSVG,
-  TailwindSVG,
-  ExpressSVG,
-  NextUISVG,
-  PrimeReactSVG,
-  PrimeVueSVG,
-  QuasarSVG,
+  NodeSVG,
   MongoDBSVG,
-  ShadcnSVG,
-} from "../components/ui/icons";
+  ExpressSVG,
+} from "../components/ui/icons"; // Make sure all these SVG components exist
 
 let color: string = "#9ca3af";
 export const techonologyIconList: iconType[] = [
+  {
+    name: "MERN Stack",
+    icon: (
+      <ReactSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
+  {
+    name: "HTML",
+    icon: (
+      <HtmlSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
+  {
+    name: "CSS",
+    icon: (
+      <CSSSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
   {
     name: "JavaScript",
     icon: (
@@ -26,18 +52,36 @@ export const techonologyIconList: iconType[] = [
     ),
   },
   {
-    name: "TypeScript",
+    name: "JSP",
     icon: (
-      <TypescriptSVG
+      <JspSVG
         color={color}
         size={35}
       />
     ),
   },
   {
-    name: "Vue",
+    name: "C++",
     icon: (
-      <VueSVG
+      <CppSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
+  {
+    name: "Java",
+    icon: (
+      <JavaSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
+  {
+    name: "Python",
+    icon: (
+      <PythonSVG
         color={color}
         size={35}
       />
@@ -52,65 +96,10 @@ export const techonologyIconList: iconType[] = [
       />
     ),
   },
-
   {
-    name: "Quasar",
+    name: "Node",
     icon: (
-      <QuasarSVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "Tailwind",
-    icon: (
-      <TailwindSVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "PrimeVue",
-    icon: (
-      <PrimeVueSVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "PrimeReact",
-    icon: (
-      <PrimeReactSVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "NextUI",
-    icon: (
-      <NextUISVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "Shadcn",
-    icon: (
-      <ShadcnSVG
-        color={color}
-        size={35}
-      />
-    ),
-  },
-  {
-    name: "Express",
-    icon: (
-      <ExpressSVG
+      <NodeSVG
         color={color}
         size={35}
       />
@@ -120,6 +109,15 @@ export const techonologyIconList: iconType[] = [
     name: "MongoDB",
     icon: (
       <MongoDBSVG
+        color={color}
+        size={35}
+      />
+    ),
+  },
+  {
+    name: "Express",
+    icon: (
+      <ExpressSVG
         color={color}
         size={35}
       />
