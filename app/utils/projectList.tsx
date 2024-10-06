@@ -119,18 +119,4 @@ export const ProjectList: ProjectType[] = [
     githubUrl: "https://github.com/Nightshade2003",
     websiteUrl: "https://www.figma.com/design/IECgG3epziE0xUxTvHYfmI/Finance-App-rework?m=auto&t=LwhwrM3p422xkBag-6",
   },
-
-  {
-    icon: <ShopApiSVG />,
-    title: "Finance App",
-    subtitle: "Finance App",
-    technologies: [
-    ],
-    description:
-      "Introducing Finance App, your personal finance companion designed for simplicity and efficiency. Track your expenses, set budgets, and monitor your investments with a sleek, intuitive interface. Our app provides insightful analytics, helping you make informed financial decisions while keeping your data secure. Manage your money effortlessly, anytime, anywhere!",
-    imgUrl: "/videos/finance.webp",
-    videoUrl: "",
-    githubUrl: "https://github.com/Nightshade2003",
-    websiteUrl: "https://www.figma.com/design/IECgG3epziE0xUxTvHYfmI/Finance-App-rework?m=auto&t=LwhwrM3p422xkBag-6",
-  },
 ];
