@@ -2,11 +2,15 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Nightshade2003/Portfolio1.git",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@nextui-org/avatar": "^2.0.24",
@@ -21,6 +25,7 @@
     "@nextui-org/tooltip": "^2.0.21",
     "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.1.1",
     "motion": "^10.16.4",
     "next": "^14.0.2-canary.25",
     "react": "^18",
@@ -38,4 +43,5 @@
     "tailwindcss": "^3",
     "typescript": "^5"
   }
+  
 }
